@@ -1,0 +1,16 @@
+body{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#root{
+    border-radius: 10px;
+    background-color: pink;
+    padding: 20px;
+}
+.card{
+    background-color: #f88;
+    display: inline-block;
+    margin: 20px;
+    width: 190px;
+}
