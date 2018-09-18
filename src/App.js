@@ -3,8 +3,8 @@ import './App.css';
 import Titles from './components/titles'
 import Form from './components/form'
 import WeatherGroup from './components/weatherGroup'
+import API_KEY from './keys';
 
-const API_KEY = "dabe58d28f041155aef36bc7d9a62d7d";
 const list = [0, 8, 16, 24, 32];
 class App extends Component {
 
