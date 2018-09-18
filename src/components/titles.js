@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Titles = () => (
-    <div>
-        <h1>Weather Finder</h1>
-        <p>Find out temperature, conditions and more... </p>
+const Titles = (props) => (
+    <div className="title-wrapper">
+        {props.city && <p>city: {props.city}</p>}
+        {props.country && <p>Country: {props.country}</p>}
     </div>
 );
 
