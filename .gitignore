@@ -1,7 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 #API keys
-src/keys.js
+/src/keys.js
 
 # dependencies
 /node_modules
