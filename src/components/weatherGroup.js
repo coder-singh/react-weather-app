@@ -1,7 +1,7 @@
 import React from 'react';
 import Weather from './weather';
 
-const list = [0, 1, 2, 3, 4];
+const list = [1, 2, 3, 4];
 var weatherIndexes;
 
 class WeatherGroup extends React.Component{
@@ -14,6 +14,7 @@ class WeatherGroup extends React.Component{
                     humidity={this.props.humidity[item]}
                     description={this.props.description[item]}
                     date={this.props.date[item]}
+                    main={this.props.main[item]}
                     error={this.props.error}
                     />
                 )

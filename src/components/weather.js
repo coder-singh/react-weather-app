@@ -2,8 +2,11 @@ import React from 'react';
 
 class Weather extends React.Component{
     render(){
+        console.log(this.props.main)
+        var str = "images/"+ this.props.main + ".png";
         return (
         <div className="card">
+            {this.props.main && <p><img src = {str} />{this.props.main}</p>}
             {this.props.temperature && <p>Temperature: {(this.props.temperature-273)|0} C</p>}
             {this.props.humidity && <p>Humidity: {this.props.humidity}%</p>}
             {this.props.description && <p>Atmosphere: {this.props.description}</p>}

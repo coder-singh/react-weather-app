@@ -1,0 +1,18 @@
+body{
+    background-color: hsl(180, 50%, 40%);
+    font-family: Nunito Sans;
+}
+
+.main-card{
+    #temperature{
+        font-size: 45px;
+        img{
+        }
+        span{
+            margin-bottom: 100px;
+        }
+    }
+    #description{
+        display: inline-block;
+    }
+}

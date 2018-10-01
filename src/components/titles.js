@@ -2,8 +2,7 @@ import React from 'react';
 
 const Titles = (props) => (
     <div className="title-wrapper">
-        {props.city && <p>city: {props.city}</p>}
-        {props.country && <p>Country: {props.country}</p>}
+        {props.city && props.country && <p>{props.city}, {props.country}</p>}
     </div>
 );
 

@@ -1,3 +1,17 @@
-body{
-    background-color: hsl(180, 50%, 40%)
+body {
+  background-color: #339999;
+  font-family: Nunito Sans;
 }
+
+.main-card #temperature {
+  font-size: 45px;
+}
+
+.main-card #temperature span {
+  margin-bottom: 100px;
+}
+
+.main-card #description {
+  display: inline-block;
+}
+/*# sourceMappingURL=index.css.map */
